@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista 4 - Responsividade</title>
+	<style type="text/css">
+		body{
+			margin:0;
+			padding:0;
+			background:#ddd;
+		}
+		#container{
+			margin:1em auto;
+			width:700px;
+			background:#fff;
+		}
+		#header{
+			background:#CF3;
+		}#mainnav{
+			background:#9F3;
+		}
+		#menu{
+			float:right;
+			width:165px;
+			background:#6F9;
+		}
+		#contents{
+			float:left;
+			width:440px;
+			background:#9FC;
+			margin:00020px;
+		}
+		#footer{
+			clear:both;
+			background:#FF9;
+		}
+		#mainnav li{
+			position:relative;
+			float:left;
+			list-style:none;
+			height:50px;
+			width:100px;
+			border:1px solid #b3b3b3;
+			text-align:center;
+			text-shadow:1px 1px 2px #fff;
+		}
+		#mainnav li a{
+			display:block;
+			background:-webkit-linear-gradient(#b3b3b3,#fff);
+			color:#333;
+			text-decoration:none;
+			font-family:arial;
+			height:35px;
+			padding-top:15px;
+		}
+		#mainnav li a:hover{
+			background:-webkit-linear-gradient(#000,#333);
+			color:#fff;
+			text-shadow:0px 0px 10px #fff;
+		}
+		#mainnav li ul{
+			position:absolute;
+			left:-40px;
+			display:none;
+		}
+		#mainnav li ul li{
+			list-style:none;
+			height:50px;
+			width:150px;
+			border:1px solid #b3b3b3;
+			text-align:center;
+		}
+		#mainnav li:hover ul{
+			position:absolute;
+			left:-40px;
+			display:block;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header"></div>
+		<div id="mainnav">
+			<h1>Leia-me</h1>
+			<h3>O melhor portal de literatura</h3>
+			<ul>
+				<li>
+					<a href='#'>Poesias</a>
+					<ul>
+						<li>
+							<a href='#'>Antonio</a>
+						</li>
+						<li>
+							<a href='#'>Carlos</a>
+						</li>
+					</ul>
+				</li>
+					<li>
+						<a href='#'>Prosas</a>
+					</li>
+					<li>
+						<a href='#'>Textos</a>
+					</li>
+			</ul>
+		</div>
+		<div id="menu">
+			<ul>
+				<li>
+					<a href='#'>Home</a>
+					<ul>
+						<li>
+							<a href='#'>Classificados</a>
+						</li>
+						<li>
+							<a href='#'>Anuncios</a>
+						</li>
+					</ul>
+				</li>
+					<li>
+						<a href='#'>About</a>
+					</li>
+					<li>
+						<a href='#'>Contact</a>
+					</li>
+			</ul>
+		</div>
+		<div id="contents">
+			<h1>Antonio Cicero</h1>
+			<pre>
+Não sou mais tolo não mais me queixo:
+enganassem-me mais desenganassem-me mais
+mais rápidas mais vorazes mais arrebatadoras
+mais volúveis mais voláteis
+mais aparecessem para mim e desaparecessem
+mais velassem mais desvelassem mais revelassem mais re-
+velassem
+mais
+eu viveria tantas mortes
+morreria tantas vidas
+jamais me queixaria
+jamais.
+
+Segredo não é, conquanto oculto;
+mas onde oculto, se o manifesta
+cada verso seu, cada vocábulo,
+casa sílaba cada fonema?
+			</pre>
+		</div>
+		<div id="footer">
+			<h5>Nenhum direito reservado, apenas para leitura pública.</h5>
+		</div>
+	</div>
+</body>
+</html>
